@@ -10,6 +10,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,4 +20,19 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.icon__update-available {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 25px;
+  bottom: 15px;
 }
